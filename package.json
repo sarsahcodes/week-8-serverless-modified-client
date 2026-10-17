@@ -1,0 +1,26 @@
+{
+  "name": "week-8-serverless-modified-client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "React + Amplify client for the serverless To-Do app (Cognito sign-in, API Gateway backend).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "env:sync": "node scripts/write-env.mjs"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.7",
+    "aws-amplify": "^6.22.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
